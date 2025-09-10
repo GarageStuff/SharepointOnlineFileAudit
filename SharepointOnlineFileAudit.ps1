@@ -1,6 +1,6 @@
 $SharePointAdminSiteURL = "https://wcgid-admin.sharepoint.com"
 $AppID = ""
-$conn = Connect-PnPOnline -Url $SharePointAdminSiteURL -clientid $appID
+$conn = Connect-PnPOnline -Url $SharePointAdminSiteURL -clientid $AppID
 
 # Set Variables
 $dateTime = (Get-Date).toString("dd-MM-yyyy")
