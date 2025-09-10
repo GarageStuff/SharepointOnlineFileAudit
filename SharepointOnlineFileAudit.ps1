@@ -1,4 +1,4 @@
-$SharePointAdminSiteURL = "https://wcgid-admin.sharepoint.com"
+$SharePointAdminSiteURL = "https://tenant-admin.sharepoint.com"
 $AppID = ""
 $conn = Connect-PnPOnline -Url $SharePointAdminSiteURL -clientid $AppID
 
