@@ -1,5 +1,8 @@
 $SharePointAdminSiteURL = "https://tenant-admin.sharepoint.com"
+
+#Azure App registration ID
 $AppID = ""
+
 $conn = Connect-PnPOnline -Url $SharePointAdminSiteURL -clientid $AppID
 
 # Set Variables
